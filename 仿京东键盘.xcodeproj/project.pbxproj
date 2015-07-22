@@ -10,10 +10,9 @@
 		A2D545A31B5F36FC0056A9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545A21B5F36FC0056A9E6 /* main.m */; };
 		A2D545A61B5F36FC0056A9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545A51B5F36FC0056A9E6 /* AppDelegate.m */; };
 		A2D545A91B5F36FC0056A9E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545A81B5F36FC0056A9E6 /* ViewController.m */; };
-		A2D545AC1B5F36FC0056A9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D545AA1B5F36FC0056A9E6 /* Main.storyboard */; };
 		A2D545AE1B5F36FC0056A9E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D545AD1B5F36FC0056A9E6 /* Images.xcassets */; };
-		A2D545B11B5F36FC0056A9E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D545AF1B5F36FC0056A9E6 /* LaunchScreen.xib */; };
 		A2D545BD1B5F36FC0056A9E6 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545BC1B5F36FC0056A9E6 /* _____Tests.m */; };
+		A2D545C81B5F37FF0056A9E6 /* TYkeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545C71B5F37FF0056A9E6 /* TYkeyboard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,12 @@
 		A2D545A51B5F36FC0056A9E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A2D545A71B5F36FC0056A9E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2D545A81B5F36FC0056A9E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A2D545AB1B5F36FC0056A9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2D545AD1B5F36FC0056A9E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A2D545B01B5F36FC0056A9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A2D545B61B5F36FC0056A9E6 /* 仿京东键盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿京东键盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D545BB1B5F36FC0056A9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2D545BC1B5F36FC0056A9E6 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		A2D545C61B5F37FF0056A9E6 /* TYkeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYkeyboard.h; sourceTree = "<group>"; };
+		A2D545C71B5F37FF0056A9E6 /* TYkeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYkeyboard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +84,9 @@
 				A2D545A51B5F36FC0056A9E6 /* AppDelegate.m */,
 				A2D545A71B5F36FC0056A9E6 /* ViewController.h */,
 				A2D545A81B5F36FC0056A9E6 /* ViewController.m */,
-				A2D545AA1B5F36FC0056A9E6 /* Main.storyboard */,
+				A2D545C61B5F37FF0056A9E6 /* TYkeyboard.h */,
+				A2D545C71B5F37FF0056A9E6 /* TYkeyboard.m */,
 				A2D545AD1B5F36FC0056A9E6 /* Images.xcassets */,
-				A2D545AF1B5F36FC0056A9E6 /* LaunchScreen.xib */,
 				A2D545A01B5F36FC0056A9E6 /* Supporting Files */,
 			);
 			path = "仿京东键盘";
@@ -199,8 +198,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2D545AC1B5F36FC0056A9E6 /* Main.storyboard in Resources */,
-				A2D545B11B5F36FC0056A9E6 /* LaunchScreen.xib in Resources */,
 				A2D545AE1B5F36FC0056A9E6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D545A91B5F36FC0056A9E6 /* ViewController.m in Sources */,
+				A2D545C81B5F37FF0056A9E6 /* TYkeyboard.m in Sources */,
 				A2D545A61B5F36FC0056A9E6 /* AppDelegate.m in Sources */,
 				A2D545A31B5F36FC0056A9E6 /* main.m in Sources */,
 			);
@@ -242,25 +240,6 @@
 			targetProxy = A2D545B71B5F36FC0056A9E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A2D545AA1B5F36FC0056A9E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2D545AB1B5F36FC0056A9E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A2D545AF1B5F36FC0056A9E6 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A2D545B01B5F36FC0056A9E6 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A2D545BE1B5F36FC0056A9E6 /* Debug */ = {

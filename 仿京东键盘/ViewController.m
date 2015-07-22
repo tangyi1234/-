@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "TYkeyboard.h"
+#define TYwidth [UIScreen mainScreen].bounds.size.width
+@interface ViewController ()<UITextFieldDelegate>
 
 @end
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    UITextField *TextField = [[UITextField alloc] initWithFrame:CGRectMake(0, 100, TYwidth, 50)];
+    TextField.delegate = self;
+    TextField.placeholder = @"rtuil;";
+    TextField.backgroundColor = [UIColor redColor];
+    [self.view addSubview:TextField];
+    
+    //引入键盘
+    TYkeyboard * view = [TYkeyboard header];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {
