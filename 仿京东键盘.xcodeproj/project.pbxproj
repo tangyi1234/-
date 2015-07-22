@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2D545A31B5F36FC0056A9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545A21B5F36FC0056A9E6 /* main.m */; };
+		A2D545A61B5F36FC0056A9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545A51B5F36FC0056A9E6 /* AppDelegate.m */; };
+		A2D545A91B5F36FC0056A9E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545A81B5F36FC0056A9E6 /* ViewController.m */; };
+		A2D545AC1B5F36FC0056A9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D545AA1B5F36FC0056A9E6 /* Main.storyboard */; };
+		A2D545AE1B5F36FC0056A9E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D545AD1B5F36FC0056A9E6 /* Images.xcassets */; };
+		A2D545B11B5F36FC0056A9E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D545AF1B5F36FC0056A9E6 /* LaunchScreen.xib */; };
+		A2D545BD1B5F36FC0056A9E6 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D545BC1B5F36FC0056A9E6 /* _____Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D545B71B5F36FC0056A9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D545951B5F36FC0056A9E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D5459C1B5F36FC0056A9E6;
+			remoteInfo = "仿京东键盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2D5459D1B5F36FC0056A9E6 /* 仿京东键盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "仿京东键盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D545A11B5F36FC0056A9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D545A21B5F36FC0056A9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2D545A41B5F36FC0056A9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2D545A51B5F36FC0056A9E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2D545A71B5F36FC0056A9E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2D545A81B5F36FC0056A9E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2D545AB1B5F36FC0056A9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D545AD1B5F36FC0056A9E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2D545B01B5F36FC0056A9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A2D545B61B5F36FC0056A9E6 /* 仿京东键盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "仿京东键盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D545BB1B5F36FC0056A9E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D545BC1B5F36FC0056A9E6 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D5459A1B5F36FC0056A9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D545B31B5F36FC0056A9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2D545941B5F36FC0056A9E6 = {
+			isa = PBXGroup;
+			children = (
+				A2D5459F1B5F36FC0056A9E6 /* 仿京东键盘 */,
+				A2D545B91B5F36FC0056A9E6 /* 仿京东键盘Tests */,
+				A2D5459E1B5F36FC0056A9E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D5459E1B5F36FC0056A9E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D5459D1B5F36FC0056A9E6 /* 仿京东键盘.app */,
+				A2D545B61B5F36FC0056A9E6 /* 仿京东键盘Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D5459F1B5F36FC0056A9E6 /* 仿京东键盘 */ = {
+			isa = PBXGroup;
+			children = (
+				A2D545A41B5F36FC0056A9E6 /* AppDelegate.h */,
+				A2D545A51B5F36FC0056A9E6 /* AppDelegate.m */,
+				A2D545A71B5F36FC0056A9E6 /* ViewController.h */,
+				A2D545A81B5F36FC0056A9E6 /* ViewController.m */,
+				A2D545AA1B5F36FC0056A9E6 /* Main.storyboard */,
+				A2D545AD1B5F36FC0056A9E6 /* Images.xcassets */,
+				A2D545AF1B5F36FC0056A9E6 /* LaunchScreen.xib */,
+				A2D545A01B5F36FC0056A9E6 /* Supporting Files */,
+			);
+			path = "仿京东键盘";
+			sourceTree = "<group>";
+		};
+		A2D545A01B5F36FC0056A9E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D545A11B5F36FC0056A9E6 /* Info.plist */,
+				A2D545A21B5F36FC0056A9E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2D545B91B5F36FC0056A9E6 /* 仿京东键盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D545BC1B5F36FC0056A9E6 /* _____Tests.m */,
+				A2D545BA1B5F36FC0056A9E6 /* Supporting Files */,
+			);
+			path = "仿京东键盘Tests";
+			sourceTree = "<group>";
+		};
+		A2D545BA1B5F36FC0056A9E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2D545BB1B5F36FC0056A9E6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D5459C1B5F36FC0056A9E6 /* 仿京东键盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D545C01B5F36FC0056A9E6 /* Build configuration list for PBXNativeTarget "仿京东键盘" */;
+			buildPhases = (
+				A2D545991B5F36FC0056A9E6 /* Sources */,
+				A2D5459A1B5F36FC0056A9E6 /* Frameworks */,
+				A2D5459B1B5F36FC0056A9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "仿京东键盘";
+			productName = "仿京东键盘";
+			productReference = A2D5459D1B5F36FC0056A9E6 /* 仿京东键盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D545B51B5F36FC0056A9E6 /* 仿京东键盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D545C31B5F36FC0056A9E6 /* Build configuration list for PBXNativeTarget "仿京东键盘Tests" */;
+			buildPhases = (
+				A2D545B21B5F36FC0056A9E6 /* Sources */,
+				A2D545B31B5F36FC0056A9E6 /* Frameworks */,
+				A2D545B41B5F36FC0056A9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D545B81B5F36FC0056A9E6 /* PBXTargetDependency */,
+			);
+			name = "仿京东键盘Tests";
+			productName = "仿京东键盘Tests";
+			productReference = A2D545B61B5F36FC0056A9E6 /* 仿京东键盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D545951B5F36FC0056A9E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "汤义";
+				TargetAttributes = {
+					A2D5459C1B5F36FC0056A9E6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A2D545B51B5F36FC0056A9E6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A2D5459C1B5F36FC0056A9E6;
+					};
+				};
+			};
+			buildConfigurationList = A2D545981B5F36FC0056A9E6 /* Build configuration list for PBXProject "仿京东键盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D545941B5F36FC0056A9E6;
+			productRefGroup = A2D5459E1B5F36FC0056A9E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D5459C1B5F36FC0056A9E6 /* 仿京东键盘 */,
+				A2D545B51B5F36FC0056A9E6 /* 仿京东键盘Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D5459B1B5F36FC0056A9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D545AC1B5F36FC0056A9E6 /* Main.storyboard in Resources */,
+				A2D545B11B5F36FC0056A9E6 /* LaunchScreen.xib in Resources */,
+				A2D545AE1B5F36FC0056A9E6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D545B41B5F36FC0056A9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D545991B5F36FC0056A9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D545A91B5F36FC0056A9E6 /* ViewController.m in Sources */,
+				A2D545A61B5F36FC0056A9E6 /* AppDelegate.m in Sources */,
+				A2D545A31B5F36FC0056A9E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D545B21B5F36FC0056A9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D545BD1B5F36FC0056A9E6 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D545B81B5F36FC0056A9E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D5459C1B5F36FC0056A9E6 /* 仿京东键盘 */;
+			targetProxy = A2D545B71B5F36FC0056A9E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D545AA1B5F36FC0056A9E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D545AB1B5F36FC0056A9E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D545AF1B5F36FC0056A9E6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D545B01B5F36FC0056A9E6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D545BE1B5F36FC0056A9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2D545BF1B5F36FC0056A9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D545C11B5F36FC0056A9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿京东键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2D545C21B5F36FC0056A9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "仿京东键盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2D545C41B5F36FC0056A9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "仿京东键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿京东键盘.app/仿京东键盘";
+			};
+			name = Debug;
+		};
+		A2D545C51B5F36FC0056A9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "仿京东键盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/仿京东键盘.app/仿京东键盘";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D545981B5F36FC0056A9E6 /* Build configuration list for PBXProject "仿京东键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D545BE1B5F36FC0056A9E6 /* Debug */,
+				A2D545BF1B5F36FC0056A9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D545C01B5F36FC0056A9E6 /* Build configuration list for PBXNativeTarget "仿京东键盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D545C11B5F36FC0056A9E6 /* Debug */,
+				A2D545C21B5F36FC0056A9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2D545C31B5F36FC0056A9E6 /* Build configuration list for PBXNativeTarget "仿京东键盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D545C41B5F36FC0056A9E6 /* Debug */,
+				A2D545C51B5F36FC0056A9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D545951B5F36FC0056A9E6 /* Project object */;
+}
